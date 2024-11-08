@@ -1,0 +1,14 @@
+# Ignora i file di sistema macOS .DS_Store, che vengono creati automaticamente in ogni cartella
+.DS_Store
+
+# Ignora tutti i file .class generati dalla compilazione Java
+*.class
+
+# Ignora la cartella bin, che spesso contiene file compilati o temporanei
+*/bin/
+
+# Ignora tutte le cartelle build, incluse quelle in sottodirectory
+**/build/
+
+# Ignora tutte le cartelle .gradle, incluse quelle in sottodirectory
+**/.gradle/
